@@ -82,7 +82,7 @@
 }
 
 #loginButton:hover {
-    background: #6056bb;
+    background: #514a92;
 }
 
 .item3 {
@@ -261,5 +261,54 @@
 }
 
 #expButt:hover {
-    background: #6056bb;
+    background-color: #514a92;
+}
+
+#news {
+    /*width: 10px;
+    height: 10px;*/
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    color: white;
+    font-size: 15px;
+    margin-right: -55px;
+}
+
+.space {
+    background-color: black;
+}
+
+.dropListItems {
+    color: #F9F4F2;
+    font-family: 'Sofia Pro', serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: black;
+}
+
+#discList {
+    /*width: 10px;
+    height: 10px;*/
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    color: white;
+    font-size: 15px;
+    margin-right: -85px;
+}
+
+#pins {
+    /*width: 10px;
+    height: 10px;*/
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    color: white;
+    font-size: 15px;
+    margin-right: -145px;
+}
+
+.navItem:hover {
+    text-decoration: underline #716ab6 3px;
 }

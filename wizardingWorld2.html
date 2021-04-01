@@ -15,17 +15,37 @@
         <div class="item2"><a href="https://my.wizardingworld.com/login" target="blank"><button class="loginButton" id="loginButton">LOGIN</button></a></div>
         <nav role="navigation" class="item3" id="item3">
             <ul class="menuitems">
-                <li><a class="navItem" id="newsDrop" href="#">NEWS & FEATURES</a>
-                    <div class="dropMenu1"></div>
-                </li>
+                <li><label for="news" class="navItem">NEWS & FEATURES
+                    <select name="news" id="news">
+                        <option value="arrow" class="space">&nbsp;V</option>
+                        <option value="news" class="dropListItems"><a href="https://www.wizardingworld.com/news" target="blank">News</a></option>
+                        <option value="features" class="dropListItems"><a href="https://www.wizardingworld.com/features" target="blank">Features</a></option>
+                    </select>
+                </label></li>
                 <li><a class="navItem" href="https://www.wizardingworld.com/quiz" target="blank">QUIZZES</a></li>
                 <li><a class="navItem" href="https://www.wizardingworld.com/writing-by-jk-rowling" target="blank">J.K. ROWLING ARCHIVE</a></li>
-                <li><a class="navItem" href="#">DISCOVER</a></li>
-                <li><a class="navItem" href="https://www.wizardingworld.com/collections/magical-mischief" target="blank">MAGICAL MISCHIEF</a></li>
-                <li><a class="navItem" href="https://www.wizardingworld.com/sorting-hat" target="blank">HOGWARTS SORTING</a></li>
-                <li><a class="navItem" href="https://www.wizardingworld.com/harry-potter-fan-club" target="blank">FAN CLUB</a></li>
-                <li><a class="navItem" href="#">PINS</a></li>
-                <li><a class="navItem" href="https://www.wizardingworld.com/store?passthrough=true" target="blank">SHOP</a></li>
+                <li><label for="discover" class="navItem">DISCOVER
+                    <select name="discover" id="discList">
+                        <option value="arrow" class="space">&nbsp;V</option>
+                        <option value="books" class="dropListItems">Books</option>
+                        <option value="films" class="dropListItems">Films</option>
+                        <option value="portkeyGames" class="dropListItems">Portkey Games</option>
+                        <option value="onStage" class="dropListItems">On Stage</option>
+                        <option value="experiences" class="dropListItems">Experiences</option>
+                    </select>
+                </li></label>
+                    <li><a class="navItem" href="https://www.wizardingworld.com/collections/magical-mischief" target="blank">MAGICAL MISCHIEF</a></li>
+                    <li><a class="navItem" href="https://www.wizardingworld.com/sorting-hat" target="blank">HOGWARTS SORTING</a></li>
+                    <li><a class="navItem" href="https://www.wizardingworld.com/harry-potter-fan-club" target="blank">FAN CLUB</a></li>
+                    <li><label for="pins" class="navItem">PINS
+                        <select name="pins" id="pins">
+                            <option value="arrow" class="space">&nbsp;V</option>
+                            <option value="learnMore" class="dropListItems">Learn More About Pins</option>
+                            <option value="explorePins" class="dropListItems">Explore Pins</option>
+                            <option value="shopPins" class="dropListItems">Shop Pins</option>
+                        </select>
+                    </label></li>
+                    <li><a class="navItem" href="https://www.wizardingworld.com/store?passthrough=true" target="blank">SHOP</a></li>
             </ul>
         </nav>
     </div>
