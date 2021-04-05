@@ -4,7 +4,7 @@
 
 .image_gradient:after {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -14,10 +14,18 @@
 }
 
 .backgrd1 {
-    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/3PHzXWhXtp3iqmO6LcVTVc/1ec47225dc761a1a94a2957057b1613b/MM_Homepage.jpg?w=2880&h=1740&fit=fill&fm=webp");
-    background-size: 2560px 1500px;
-    background-repeat: no-repeat;
-    background-position: top;
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/11CTuYYhRFqCz0v6vVkizE/a31b1a8f71cf8a87ff0cee11665f60fb/Wand_experience_Ollivanders_exterior__Normal_width.jpg?w=2880&h=1740&fit=fill&fm=webp"), url(../StaticLayout/assets/bg-93724927d97aed53189ed6c949ad8547.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: left top, left bottom;
+    background-size: 2540px 1350px, 2540px auto;
+}
+
+#backgrd1 {
+    z-index: 1;
+}
+
+#backgrd2 {
+    z-index: 3;
 }
 
 .bodyGrid1 {
@@ -75,7 +83,7 @@
     margin-top: 43px;
     font-family: 'Sofia Pro', serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200;
     letter-spacing: 1.1px;
     z-index: 10;
@@ -185,7 +193,7 @@
     grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     z-index: 10;
 }
 
@@ -201,7 +209,7 @@
     grid-row-end: 6;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     z-index: 10;
 }
 
@@ -217,11 +225,12 @@
     grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     z-index: 10;
 }
 
-#welcome4 {
+
+/* #welcome4 {
     color: #F9F4F2;
     font-family: 'Sofia Pro', serif;
     font-weight: 400;
@@ -234,7 +243,7 @@
     grid-column-start: 2;
     grid-column-end: 3;
     z-index: 10;
-}
+} */
 
 .explore {
     grid-row-start: 8;
@@ -242,7 +251,7 @@
     grid-column-start: 2;
     grid-column-end: 3;
     justify-self: center;
-    margin-top: 20px;
+    margin-top: 60px;
     z-index: 10;
 }
 
@@ -254,7 +263,7 @@
     color: #F9F4F2;
     font-family: 'Sofia Pro', serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     letter-spacing: 2px;
     z-index: 10;
@@ -311,4 +320,191 @@
 
 .navItem:hover {
     text-decoration: underline #716ab6 3px;
+}
+
+.goAheadIcon {
+    width: 50px;
+    height: 250px;
+}
+
+.bodyFlex1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 2438px;
+    height: 550px;
+    justify-content: center;
+    align-content: stretch;
+    margin-left: -8px;
+    padding-left: 100px;
+    z-index: 10;
+    /* background-color: darkgray; */
+}
+
+.firstImg {
+    width: 550px;
+    height: 420px;
+    z-index: 11;
+    /* background-color: blueviolet; */
+}
+
+.ImgType {
+    z-index: 12;
+    margin-top: -100px;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.ImgCapt {
+    z-index: 12;
+    margin-top: 3px;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.flexImg {
+    width: 470px;
+    height: 270px;
+}
+
+.secondImg {
+    width: 550px;
+    height: 420px;
+    z-index: 11;
+    /* background-color: brown; */
+}
+
+.thirdImg {
+    width: 550px;
+    height: 420px;
+    z-index: 11;
+    /* background-color: burlywood; */
+}
+
+.bodyFlex1 p {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    font-size: 40px;
+    color: #F9F4F2;
+}
+
+.bodyFlex1 h5 {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    color: #F9F4F2;
+}
+
+.arrowNav {
+    width: 1400px;
+    height: 80px;
+    margin-left: -120px;
+    /* background-color: crimson; */
+    z-index: 11;
+}
+
+.leftCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #d2d2d2;
+    margin: 15px 0px 0px 5px;
+}
+
+.leftArrow {
+    position: relative;
+    font-family: 'Sofia Pro', serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #d2d2d2;
+    transform: rotate(90deg);
+    margin: 11px 9px 9px 8px;
+}
+
+.rightCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #d2d2d2;
+    margin: -52px 0px 0px 65px;
+}
+
+.rightArrow {
+    position: relative;
+    font-family: 'Sofia Pro', serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #d2d2d2;
+    transform: rotate(270deg);
+    margin: -3px 9px 8px 9px;
+}
+
+#dot1 {
+    color: #F0F0F0;
+    z-index: 11;
+    position: relative;
+    margin: -35px 0px 5px 130px;
+}
+
+#dot2 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -25px 0px 0px 150px;
+}
+
+#dot3 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 170px;
+}
+
+#dot4 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 190px;
+}
+
+#dot5 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 210px;
+}
+
+#dot6 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 230px;
+}
+
+#dot7 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 250px;
+}
+
+#dot8 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 270px;
+}
+
+#dot9 {
+    z-index: 11;
+    color: #353643;
+    position: relative;
+    margin: -20px 0px 0px 290px;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: #353643;
+    margin-left: 320px;
+    margin-top: -10px;
 }
