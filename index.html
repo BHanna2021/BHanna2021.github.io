@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="wizardingWorld2.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -59,10 +59,13 @@
         <!--<p id="welcome4">quizzes fit for a trickster.</p>-->
         <a class="explore" href="https://wizardingworld.com/wand" target="_blank"><button class="exploreButton" id="expButt"><b>FIND YOUR WAND</b></button></a>
     </div>
-    <div class="goAheadIcon"></div>
-    <!--^^^still need this added-->
-    <!--<div id="backgrd2"></div>
-    ^^^still not working-->
+    <div class="goAheadIcon">
+        <div class="animatedIcon">
+            <div id="diamond1"></div>
+            <div id="diamond2"></div>
+            <div id="diamond3" animation-name="diamond3"></div>
+        </div>
+    </div>
     <div class="bodyFlex1">
         <div class="firstImg"><img class="flexImg" id="firstImg" src="https://images.ctfassets.net/usf1vwtuqyxm/cqDtIHanUkU44w0guYkEA/c41d8c953ee5259a49a0db98bf23d6c0/FredAndGeorge_WB_F5_AtGrimmauldPlace_HP5-FX-00152r.jpg?w=380&h=213&fit=fill&f=top&fm=webp" alt="">
             <div>
@@ -103,7 +106,37 @@
             <div class="line"></div>
         </div>
     </div>
-    <div></div>
+    <div class="bodyGrid2">
+        <div class="sortingContainer">
+            <h4 id="sortingText">VISIT THE SORTING HAT</h4>
+            <h1 id="sortingTitle">Find out which Hogwarts house you're in</h1>
+            <p id="sortingP">Are you brave, ambitious, loyal or wise? Take part in the Sorting Ceremony to see where the Sorting Hat puts you.</p>
+            <button class="getSorted"><a href="https://www.my.wizardingworld.com/register">GET SORTED NOW</a></button>
+        </div>
+        <div class="sortingHat"><img id="fourHouses" src="../StaticLayout/assets/Discover-Your-House_Crest-Composite_Normal-Wdith__1_.jpg" alt=""></div>
+        <div class="nifflerImg"><img src="../StaticLayout/assets/Promo_module_niffler_01.jpg" alt=""></div>
+        <div class="niffler">
+            <h1 id="nifflerTitle">Coming soon: seek the ultimate mischief-maker</h1>
+            <p id="nifflerP">Be amongst the first to seek the new Bejewelled Niffler enamel pin with Gold Member early access and 20% savings.</p>
+            <button class="joinGold">JOIN GOLD</button>
+        </div>
+        <div class="hpTrain">
+            <h4 id="trainText">COLLECTION</h4>
+            <h1 id="trainTitle">Starting Harry Potter</h1>
+            <p id="trainP">As you enter the pages of the first story, join Harry as you discover the wizarding world together. Here, you'll find quizzes, puzzles, crafts and much more to help guide you through your very first journey into Harry Potter and the Philosopher's
+                Stone.
+            </p>
+            <button class="beginJourney">BEGIN YOUR JOURNEY</button>
+        </div>
+        <div class="trainImg"><img src="../StaticLayout/assets/jim-kay-hogwarts-exp.jpg" alt=""></div>
+        <div class="patronusImg"><img src="https://images.ctfassets.net/usf1vwtuqyxm/3kJzT73EKbPNHNEC3YXZiz/7d2bb90160a68e4dc74185ef265dd2d7/Patronus_Normal-Width_v3.jpg?w=1008&fm=webp" alt=""></div>
+        <div class="patronus">
+            <h4 id="patronusText">EXPECTO PATRONUM!</h4>
+            <h1 id="patronusTitle">Discover your Patronus</h1>
+            <p id="patronusP">Summon your happiest memory and our official Patronus experience will help you cast your very own magical, silver animal protector.</p>
+            <button class="discoverPatronus">DISCOVER YOUR PATRONUS</button>
+        </div>
+    </div>
 </body>
 
 </html>

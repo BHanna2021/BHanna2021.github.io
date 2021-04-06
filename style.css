@@ -20,14 +20,6 @@
     background-size: 2540px 1350px, 2540px auto;
 }
 
-#backgrd1 {
-    z-index: 1;
-}
-
-#backgrd2 {
-    z-index: 3;
-}
-
 .bodyGrid1 {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -49,6 +41,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
     margin-left: 575px;
+    z-index: 30;
 }
 
 .logo1 {
@@ -56,10 +49,7 @@
     height: 80px;
     padding-left: 650px;
     margin-top: 15px;
-    z-index: 10;
-    /*padding-top: 5px;
-    margin-left: 100px;
-    padding-bottom: 15px;*/
+    z-index: 30;
 }
 
 .item2 {
@@ -86,7 +76,7 @@
     font-size: 14px;
     font-weight: 200;
     letter-spacing: 1.1px;
-    z-index: 10;
+    z-index: 30;
 }
 
 #loginButton:hover {
@@ -100,7 +90,7 @@
     /*background-color: saddlebrown;*/
     height: 75px;
     color: #FFFFFF;
-    z-index: 10;
+    z-index: 15;
     border-top: solid .5px rgba(128, 128, 128, 0.644);
 }
 
@@ -114,9 +104,10 @@
     position: fixed;
     top: 120px;
     width: 100%;
+    margin-top: 15px;
     margin-left: 150px;
     padding-left: 450px;
-    z-index: 10;
+    z-index: 30;
 }
 
 .navItem {
@@ -127,7 +118,7 @@
     font-weight: 700;
     padding-right: 35px;
     text-decoration: unset;
-    z-index: 10;
+    z-index: 30;
 }
 
 .welcome {
@@ -138,14 +129,15 @@
 }
 
 #hp_fb {
-    width: 700px;
-    height: 160px;
+    width: 690px;
+    height: 150px;
     background-color: transparent;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     justify-self: center;
+    margin-top: -20px;
     z-index: 10;
 }
 
@@ -177,6 +169,7 @@
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
+    margin-top: 35px;
     margin-bottom: -5px;
     z-index: 10;
 }
@@ -263,10 +256,11 @@
     color: #F9F4F2;
     font-family: 'Sofia Pro', serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     letter-spacing: 2px;
     z-index: 10;
+    margin-bottom: 20px;
 }
 
 #expButt:hover {
@@ -323,8 +317,104 @@
 }
 
 .goAheadIcon {
-    width: 50px;
-    height: 250px;
+    width: 2525px;
+    height: 200px;
+    /* border: solid 1px red; */
+}
+
+.animatedIcon {
+    width: 100px;
+    height: 150px;
+    /* border: solid 1px blue; */
+    position: relative;
+    margin-left: 1210px;
+    margin-top: 45px;
+    z-index: 11;
+}
+
+#diamond1 {
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    border: solid 2px rgba(255, 255, 255, 0.473);
+    margin-left: 35px;
+    margin-top: 40px;
+    animation-name: diamond1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+#diamond2 {
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    border: solid 2px rgba(255, 255, 255, 0.719);
+    margin-left: 35px;
+    margin-top: -10px;
+    animation-name: diamond2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-delay: 300ms;
+}
+
+#diamond3 {
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    border: solid 2px #fff;
+    margin-left: 0px;
+    margin-top: -55px;
+    animation-name: diamond3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diamond1 {
+    0% {
+        border: solid 2px rgba(255, 255, 255, 0.473)
+    }
+    50% {
+        border: solid 2px rgba(255, 255, 255, 0.26)
+    }
+    100% {
+        border: none
+    }
+}
+
+@keyframes diamond2 {
+    0% {
+        border: solid 2px rgba(255, 255, 255, 0.719)
+    }
+    50% {
+        border: solid 2px rgba(255, 255, 255, 0.185)
+    }
+    100% {
+        border: none
+    }
+}
+
+@keyframes diamond3 {
+    0% {
+        left: 35px;
+        top: 10px;
+    }
+    50% {
+        left: 35px;
+        top: 50px;
+    }
+    100% {
+        border-color: transparent;
+        left: 35px;
+        top: 50px;
+    }
 }
 
 .bodyFlex1 {
@@ -336,6 +426,7 @@
     justify-content: center;
     align-content: stretch;
     margin-left: -8px;
+    margin-top: -25px;
     padding-left: 100px;
     z-index: 10;
     /* background-color: darkgray; */
@@ -502,9 +593,131 @@
 }
 
 .line {
-    width: 70%;
+    width: 75%;
     height: 1px;
     background-color: #353643;
     margin-left: 320px;
     margin-top: -10px;
+}
+
+.bodyGrid2 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+.sortingHat {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    margin-top: 130px;
+    margin-left: -290px;
+    z-index: 11;
+}
+
+#fourHouses {
+    width: 1350px;
+    height: 750px;
+}
+
+.sortingContainer {
+    width: 600px;
+    margin-top: 250px;
+    margin-left: 450px;
+    margin-right: -385px;
+    z-index: 12;
+}
+
+#sortingText {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    padding-left: 250px;
+    text-align: right;
+    font-size: 20px;
+}
+
+#sortingTitle {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    font-size: 85px;
+    text-align: right;
+    margin: 20px 0px 0px;
+}
+
+#sortingP {
+    font-family: 'Sofia Pro', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    font-size: 22px;
+    text-align: right;
+}
+
+.getSorted {
+    width: 325px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: #6B63B5;
+    color: #F9F4F2;
+    font-family: 'Sofia Pro', serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 2px;
+    z-index: 10;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 270px;
+}
+
+.nifflerImg {
+    margin-top: 200px;
+    width: 1350px;
+    height: 750px;
+}
+
+.niffler {
+    display: grid;
+    margin-top: 200px;
+}
+
+#nifflerTitle {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    font-size: 85px;
+    text-align: left;
+    margin: 20px 0px 0px;
+}
+
+#nifflerP {
+    font-family: 'Sofia Pro', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    font-size: 22px;
+    text-align: left;
+}
+
+.joinGold {
+    width: 325px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: #6B63B5;
+    color: #F9F4F2;
+    font-family: 'Sofia Pro', serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 2px;
+    z-index: 10;
+    margin-bottom: 20px;
+    text-align: center;
 }
