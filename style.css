@@ -14,7 +14,7 @@
 }
 
 .backgrd1 {
-    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/11CTuYYhRFqCz0v6vVkizE/a31b1a8f71cf8a87ff0cee11665f60fb/Wand_experience_Ollivanders_exterior__Normal_width.jpg?w=2880&h=1740&fit=fill&fm=webp"), url(../StaticLayout/assets/bg-93724927d97aed53189ed6c949ad8547.jpg);
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/11CTuYYhRFqCz0v6vVkizE/a31b1a8f71cf8a87ff0cee11665f60fb/Wand_experience_Ollivanders_exterior__Normal_width.jpg?w=2880&h=1740&fit=fill&fm=webp"), url(../assets/bg-93724927d97aed53189ed6c949ad8547.jpg);
     background-repeat: no-repeat, repeat;
     background-position: left top, left bottom;
     background-size: 2540px 1350px, 2540px auto;
@@ -676,4 +676,9 @@
     margin-bottom: 20px;
     text-align: center;
     margin-left: 270px;
+}
+
+.getSorted a {
+    text-decoration: none;
+    color: #F9F4F2;
 }
