@@ -451,6 +451,12 @@
     margin-top: 3px;
     margin-left: 70px;
     margin-right: 90px;
+    text-decoration: none;
+}
+
+.ImgCapt a {
+    text-decoration: none;
+    color: #F9F4F2;
 }
 
 .flexImg {
@@ -615,10 +621,10 @@
 
 .sortingHat {
     display: grid;
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
     margin-top: 130px;
-    margin-left: -290px;
+    margin-left: -600px;
     z-index: 11;
 }
 
@@ -628,14 +634,16 @@
 }
 
 .sortingContainer {
+    grid-column-start: 1;
+    grid-column-end: 2;
     width: 600px;
-    margin-top: 250px;
-    margin-left: 450px;
-    margin-right: -385px;
+    margin-top: 210px;
+    margin-left: 530px;
+    margin-right: -635px;
     z-index: 12;
 }
 
-#sortingText {
+.leftText {
     font-family: 'Bluu Next', serif;
     font-style: normal;
     color: #F9F4F2;
@@ -644,7 +652,7 @@
     font-size: 20px;
 }
 
-#sortingTitle {
+.leftTitle {
     font-family: 'Bluu Next', serif;
     font-style: normal;
     color: #F9F4F2;
@@ -653,7 +661,7 @@
     margin: 20px 0px 0px;
 }
 
-#sortingP {
+.leftP {
     font-family: 'Sofia Pro', serif;
     font-style: normal;
     color: #F9F4F2;
@@ -661,7 +669,7 @@
     text-align: right;
 }
 
-.getSorted {
+.leftButton {
     width: 325px;
     height: 65px;
     border-radius: 100px;
@@ -678,7 +686,138 @@
     margin-left: 270px;
 }
 
-.getSorted a {
+.leftButton:hover {
+    background: #514a92;
+}
+
+.leftButton a {
     text-decoration: none;
     color: #F9F4F2;
+}
+
+.niffler {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.nifflerImg {
+    width: 1200px;
+    height: 700px;
+    z-index: 11;
+    margin-left: 130px;
+}
+
+.nifflerText {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 285px;
+    margin-left: -220px;
+    margin-right: 440px;
+    z-index: 12;
+}
+
+.rightText {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    /* padding-left: 250px; */
+    text-align: left;
+    font-size: 20px;
+}
+
+.rightTitle {
+    font-family: 'Bluu Next', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    font-size: 85px;
+    text-align: left;
+    margin: 20px 0px 0px;
+}
+
+.rightP {
+    font-family: 'Sofia Pro', serif;
+    font-style: normal;
+    color: #F9F4F2;
+    font-size: 22px;
+    text-align: left;
+}
+
+.rightButton {
+    width: 325px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: #6B63B5;
+    color: #F9F4F2;
+    font-family: 'Sofia Pro', serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 2px;
+    z-index: 10;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.rightButton:hover {
+    background: #514a92;
+}
+
+.rightButton a {
+    text-decoration: none;
+    color: #F9F4F2;
+}
+
+.trainText {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 600px;
+    margin-top: 180px;
+    margin-left: 550px;
+    margin-right: -555px;
+    z-index: 12;
+}
+
+.trainImg {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 180px;
+    margin-left: -600px;
+}
+
+#trainImg {
+    width: 1400px;
+    height: 540px;
+}
+
+.patronus {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    margin-top: 180px;
+    margin-left: 200px;
+    z-index: 11;
+}
+
+.patronusImg {
+    width: 1250px;
+    height: 690px;
+    z-index: 11;
+    margin-left: 100px;
+}
+
+.patronusText {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    margin-right: 430px;
+    margin-top: 290px;
+    margin-left: -180px;
+    z-index: 12;
 }
