@@ -10,7 +10,7 @@
 }
 
 .backgrd1 {
-    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/11CTuYYhRFqCz0v6vVkizE/a31b1a8f71cf8a87ff0cee11665f60fb/Wand_experience_Ollivanders_exterior__Normal_width.jpg?w=2880&h=1740&fit=fill&fm=webp"), url(../assets/bg-93724927d97aed53189ed6c949ad8547.jpg);
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/11CTuYYhRFqCz0v6vVkizE/a31b1a8f71cf8a87ff0cee11665f60fb/Wand_experience_Ollivanders_exterior__Normal_width.jpg?w=2880&h=1740&fit=fill&fm=webp"), url(../StaticLayout/assets/bg-93724927d97aed53189ed6c949ad8547.jpg);
     background-repeat: no-repeat, repeat;
     background-position: left top, left bottom;
     background-size: 2540px 1350px, 2540px auto;
@@ -62,7 +62,8 @@
     border: 0px;
     margin-left: 697px;
     margin-top: 43px;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-style: normal;
     font-size: 14px;
     font-weight: 200;
@@ -103,7 +104,8 @@
 .navItem {
     float: left;
     color: #FFFFFF;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-size: 18px;
     font-weight: 700;
     padding-right: 35px;
@@ -156,15 +158,16 @@
     grid-column-start: 2;
     grid-column-end: 3;
     margin-top: 35px;
-    margin-bottom: -5px;
+    margin-bottom: 0px;
     z-index: 10;
 }
 
 #welcome1 {
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     justify-self: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -172,15 +175,16 @@
     grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
     z-index: 10;
 }
 
 #welcome2 {
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     justify-self: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -188,15 +192,16 @@
     grid-row-end: 6;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
     z-index: 10;
 }
 
 #welcome3 {
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     justify-self: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -224,7 +229,8 @@
     border-radius: 100px;
     background-color: #6B63B5;
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
     font-size: 18px;
     border: none;
@@ -252,7 +258,8 @@
 
 .dropListItems {
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
     font-size: 18px;
     background-color: black;
@@ -466,12 +473,13 @@
 
 .leftArrow {
     position: relative;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-style: normal;
     font-size: 35px;
     color: #d2d2d2;
     transform: rotate(90deg);
-    margin: 11px 9px 9px 8px;
+    margin: -1px 12px 9px 6px;
 }
 
 .rightCircle {
@@ -484,12 +492,13 @@
 
 .rightArrow {
     position: relative;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-style: normal;
     font-size: 35px;
     color: #d2d2d2;
     transform: rotate(270deg);
-    margin: -3px 9px 8px 9px;
+    margin: -9px 7px 8px 12px;
 }
 
 #dot1 {
@@ -619,10 +628,11 @@
 }
 
 .leftP {
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-style: normal;
     color: #F9F4F2;
-    font-size: 22px;
+    font-size: 20px;
     text-align: right;
 }
 
@@ -632,11 +642,12 @@
     border-radius: 100px;
     background-color: #6B63B5;
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     z-index: 10;
     margin-bottom: 20px;
     text-align: center;
@@ -675,7 +686,7 @@
     grid-column-end: 3;
     margin-top: 285px;
     margin-left: -220px;
-    margin-right: 440px;
+    margin-right: 480px;
     z-index: 12;
 }
 
@@ -697,10 +708,11 @@
 }
 
 .rightP {
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-style: normal;
     color: #F9F4F2;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -710,11 +722,12 @@
     border-radius: 100px;
     background-color: #6B63B5;
     color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Sofia Pro', serif; */
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     z-index: 10;
     margin-bottom: 20px;
     text-align: center;
@@ -751,7 +764,7 @@
 
 #trainImg {
     width: 1400px;
-    height: 540px;
+    height: 580px;
 }
 
 .patronus {
