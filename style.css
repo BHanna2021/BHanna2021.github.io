@@ -16,28 +16,12 @@
     background-size: 2540px 1350px, 2540px auto;
 }
 
-#backgrd1 {
-    animation: zoomout ease-in 3s;
-    -webkit-animation: zoomout ease-in 3s;
-    transition: ease-in-out .5s;
-}
-
-@keyframes zoomout {
-    0% {
-        transform: scale(1.5)
-    }
-    100% {
-        transform: scale(1)
-    }
-}
-
 .bodyGrid1 {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     margin: 0px;
     padding: 0px;
-    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -51,7 +35,6 @@
     grid-row-start: 1;
     grid-row-end: 2;
     margin-left: 575px;
-    z-index: 30;
 }
 
 .logo1 {
@@ -59,7 +42,6 @@
     height: 80px;
     padding-left: 650px;
     margin-top: 15px;
-    z-index: 30;
 }
 
 .item2 {
@@ -225,22 +207,6 @@
     margin-bottom: -15px;
     z-index: 10;
 }
-
-
-/* #welcome4 {
-    color: #F9F4F2;
-    font-family: 'Sofia Pro', serif;
-    font-weight: 400;
-    font-size: 22px;
-    justify-self: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    z-index: 10;
-} */
 
 .explore {
     grid-row-start: 8;
